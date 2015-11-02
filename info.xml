@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+	<name>AtMUST</name>
+	<description>Default theme for JA T3 Blank template</description>
+	<date>September 2015</date>
+	<version>1.0.0</version>
+	<author>Ziyal Amanya Brazio</author>
+	<copyright>Ziyal Amanya Brazio</copyright>
+	<stylesheets>
+		<file>css/typo.css</file>
+	</stylesheets>
+	<scripts>
+	</scripts>
+</theme>

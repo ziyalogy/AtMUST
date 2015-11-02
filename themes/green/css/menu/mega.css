@@ -1,0 +1,73 @@
+/*
+ * ------------------------------------------------------------------------
+ * AtMUST Template for J25 & J32
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2015 AtMUST. All Rights Reserved.
+ *  
+ * Author:  AtMUST
+ * Websites:  http://www.ziyalogy.xyz -  http://www.buildal.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+/* lv - 0
+-----------------------------------*/
+.ja-megamenu ul.level0 li.mega a.mega {
+  color: #fff;
+}
+
+.ja-megamenu a.over {
+	background: -moz-linear-gradient(42deg, rgba(46,49,146,1) 0%, rgba(46,49,146,1) 19%, rgba(113,115,185,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(46,49,146,1)), color-stop(19%, rgba(46,49,146,1)), color-stop(100%, rgba(113,115,185,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(42deg, rgba(46,49,146,1) 0%, rgba(46,49,146,1) 19%, rgba(113,115,185,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(42deg, rgba(46,49,146,1) 0%, rgba(46,49,146,1) 19%, rgba(113,115,185,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(42deg, rgba(46,49,146,1) 0%, rgba(46,49,146,1) 19%, rgba(113,115,185,1) 100%); /* ie10+ */
+background: linear-gradient(48deg, rgba(46,49,146,1) 0%, rgba(46,49,146,1) 19%, rgba(113,115,185,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e3192', endColorstr='#7173b9',GradientType=1 ); /* ie6-9 */
+}
+
+.ja-megamenu ul.level0 li.active a {
+	background: -moz-linear-gradient(42deg, rgba(46,49,146,1) 0%, rgba(46,49,146,1) 19%, rgba(113,115,185,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(46,49,146,1)), color-stop(19%, rgba(46,49,146,1)), color-stop(100%, rgba(113,115,185,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(42deg, rgba(46,49,146,1) 0%, rgba(46,49,146,1) 19%, rgba(113,115,185,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(42deg, rgba(46,49,146,1) 0%, rgba(46,49,146,1) 19%, rgba(113,115,185,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(42deg, rgba(46,49,146,1) 0%, rgba(46,49,146,1) 19%, rgba(113,115,185,1) 100%); /* ie10+ */
+background: linear-gradient(48deg, rgba(46,49,146,1) 0%, rgba(46,49,146,1) 19%, rgba(113,115,185,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e3192', endColorstr='#7173b9',GradientType=1 ); /* ie6-9 */
+}
+
+/* lv - 1 and below
+-----------------------------------*/
+.ja-megamenu ul.level1 li.mega {
+}
+
+.ja-megamenu ul.level1 li.first {
+  border-top: 0;
+}
+
+.ja-megamenu ul.level1 li.mega a.mega {
+	border: 0;
+	color: #2e3192 !important;
+}
+
+.ja-megamenu ul.level1 li.mega a.over,
+.ja-megamenu ul.level1 li.mega a:hover,
+.ja-megamenu ul.level1 li.mega a.active {
+  color: #fff !important;
+}
+
+/* CHILD CONTENT
+-----------------------------------*/
+.ja-megamenu .childcontent-inner {
+	background: #e6e7f8;
+	color: #2e3192;
+}
+
+/* Grouped --- */
+.ja-megamenu .group-title {
+  border-bottom: 1px solid #75966d;
+}
+
+.ja-megamenu .group-title .menu-title {
+  color: #ffd543;
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	version="2.5"
+	type="template"
+	method="upgrade" client="site">
+	<name>atmust</name>
+	<version>1.0.</version>
+	<creationDate>1 September 2015</creationDate>
+	<author>AtMUST</author>
+	<authorEmail>amziyal@gmail.com</authorEmail>
+	<authorUrl>http://www.ziyalogy.xyz</authorUrl>
+	<copyright>Copyright (C). All Rights Reserved.</copyright>
+	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<description>	
+	<![CDATA[
+<p>A Joomla 3 template based on the JAT3 framework that I intended for Joomla enthusiasts at Mbarara University of 
+Science and Technology to use while building Joomla websites meant to be .must.ac.ug subdomains</p>
+
+		]]>
+	
+	</description>
+	<engine>t3</engine>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>info.xml</filename>
+		<filename>error.php</filename>
+		<filename>offline.php</filename>
+		<filename>params.ini</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>language</folder>
+		<folder>etc</folder>
+		<folder>themes</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>info</folder>
+		<folder>blocks</folder>
+	</files>
+	
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_atmust.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_atmust.sys.ini</language>
+	</languages>
+
+	<positions>
+		<position>hornav</position>
+		<position>breadcrumbs</position>
+		<position>search</position>
+		<position>slideshow</position>
+		<position>masshead</position>
+		<position>banner</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>top_links</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>user12</position>
+		<position>user13</position>
+		<position>user14</position>
+		<position>user15</position>
+		<position>user16</position>
+		<position>user17</position>
+		<position>user18</position>
+		<position>user19</position>
+		<position>user20</position>
+		<position>user21</position>
+		<position>user22</position>
+		<position>user23</position>
+		<position>user24</position>
+		<position>footer</position>
+		<position>syndicate</position>
+		<position>debug</position>
+		<position>mega1</position>
+		<position>mega2</position>
+		<position>top-panel</position>
+	</positions>
+
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/jat3/jat3/core/element">
+			<fieldset name="EXTRA_SETTING" label="Extra Settings">
+				<field name="group_disable" type="japaramhelpert3" function="@group">
+					<option for="all" value="hide" hideRow="true">setting_screen, setting_direction</option>
+					<option for="all" value="disable" hideRow="false">setting_menu, iphone_layout, handheld_layout, android_layout</option>
+				</field>
+			</fieldset>
+		</fields>
+    </config>
+</extension>

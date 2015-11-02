@@ -1,0 +1,17 @@
+/*
+ * ------------------------------------------------------------------------
+ * AtMUST Template for J25 & J32
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2015 AtMUST. All Rights Reserved.
+ *  
+ * Author:  AtMUST
+ * Websites:  http://www.ziyalogy.xyz -  http://www.buildal.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+/* Mail to form */
+#mailtoForm .button:hover {
+  background: #f78f20;
+  border-color: #f78f20;
+}

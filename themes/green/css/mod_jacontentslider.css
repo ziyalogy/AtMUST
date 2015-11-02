@@ -1,0 +1,16 @@
+/**
+ * ------------------------------------------------------------------------
+ * Website for Faculty of Applied Sciences and Technology - MUST
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2015 Ziyal Brazio Amanya. All Rights Reserved.
+ *  
+ * Author: Ziyal Brazio Amanya
+ * Websites:  http://www.amanya.ug -  http://www.buildal.ug
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+
+.ja-contentslider-left,
+.ja-contentslider-right {
+	background-image: url(../images/btn-control.png);
+}
